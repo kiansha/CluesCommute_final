@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dip" >
+
+    <!--  ListRow Left sied Thumbnail image -->
+    <LinearLayout android:id="@+id/thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="36dp">
+
+        <Button
+            android:id="@+id/selectButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/button_background"
+            android:textColor="@color/button_text"
+
+            />
+
+    </LinearLayout>
+
+    <!-- Employee name-->
+
+    <TextView
+        android:layout_marginRight="36dp"
+        android:id="@+id/employee_name_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/thumbnail"
+
+        android:textColor="@color/text_color"
+        android:layout_alignParentLeft="true"
+        android:typeface="sans"
+        android:textSize="15dip"
+        android:textStyle="bold"/>
+
+    <!-- Employee Id-->
+
+    <TextView
+        android:layout_marginRight="36dp"
+        android:id="@+id/employee_id_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/thumbnail"
+        android:layout_below="@+id/employee_name_show"
+        android:textColor="@color/text_color"
+        android:layout_alignParentLeft="true"
+        android:typeface="sans"
+        android:textSize="12dip"
+        android:textStyle="bold"/>
+
+    <!-- Address -->
+    <TextView
+        android:layout_marginRight="36dp"
+        android:id="@+id/address"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/employee_id_show"
+        android:layout_alignParentLeft="true"
+        android:textColor="@color/text_color"
+        android:textSize="10dip"
+
+        android:layout_marginTop="1dip"
+        android:layout_toLeftOf="@+id/thumbnail" />
+
+</RelativeLayout>

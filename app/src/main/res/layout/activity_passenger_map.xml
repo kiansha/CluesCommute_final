@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context="com.example.aakansha.newpool.activity.activity.BroadcastTest">
+
+    <TableLayout android:id="@+id/tableGPS"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7px"
+        android:stretchColumns="1">
+        <TableRow
+            android:layout_margin="1dip">
+            <TextView android:layout_gravity="right"
+                android:text="Time:"
+                android:layout_marginRight="7px"
+                android:layout_width="wrap_content" />
+            <TextView android:id="@+id/txtDateTime"
+                android:gravity="left"
+                android:layout_span="2" />
+        </TableRow>
+        <TableRow
+            android:layout_margin="1px">
+            <TextView android:layout_gravity="right"
+                android:text="Counter:"
+                android:layout_marginRight="7px"
+                android:layout_width="wrap_content" />
+            <TextView android:id="@+id/txtCounter"
+                android:gravity="left" />
+        </TableRow>
+        <TableRow
+            android:layout_margin="1dip">
+            <TextView android:layout_gravity="right"
+                android:text="Driver Id:"
+                android:layout_marginRight="7px"
+                android:layout_width="wrap_content" />
+            <TextView android:id="@+id/txtdriverid"
+                android:gravity="left"
+                android:layout_span="2" />
+        </TableRow>
+        <TableRow
+            android:layout_margin="1px">
+            <TextView android:layout_gravity="right"
+                android:text="Current Latitude:"
+                android:layout_marginRight="7px"
+                android:layout_width="wrap_content" />
+            <TextView android:id="@+id/txtlat"
+                android:gravity="left" />
+        </TableRow>
+        <TableRow
+            android:layout_margin="1px">
+            <TextView android:layout_gravity="right"
+                android:text="Current Longitude:"
+                android:layout_marginRight="7px"
+                android:layout_width="wrap_content" />
+            <TextView android:id="@+id/txtlong"
+                android:gravity="left" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rv_recyclerView5">
+    </android.support.v7.widget.RecyclerView>
+
+
+    <Button
+        android:id="@+id/ShowMaps"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dip"
+        android:background="@color/button_background"
+        android:text="START JOURNEY AS DRIVER"
+        android:textAllCaps="false"
+        android:textColor="@color/button_text"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/startAsPass"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:background="@color/button_background"
+        android:text="START JOURNEY AS PASSENGER"
+        android:textAllCaps="false"
+        android:textColor="@color/button_text"
+        android:textSize="15dp" />
+
+</LinearLayout>
