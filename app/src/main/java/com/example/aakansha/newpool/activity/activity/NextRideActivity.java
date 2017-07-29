@@ -25,6 +25,7 @@ import org.json.JSONObject;
 import java.util.HashMap;
 import java.util.Map;
 
+//fetching next passenger from route
 public class NextRideActivity extends AppCompatActivity {
 
     public static final String TAG="TAG";

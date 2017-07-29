@@ -7,6 +7,8 @@ import android.view.View;
 import android.widget.Button;
 import com.example.aakansha.newpool.R;
 
+//ride end activity on reaching shopclues, in driver's app
+
 public class RideEnd extends AppCompatActivity {
 
     Button go_home;

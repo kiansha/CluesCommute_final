@@ -55,29 +55,16 @@
             android:name=".activity.activity.ViewRequestAllReceivedActivity"
             android:label="@string/title_activity_view_request_all_received"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".activity.activity.Main2Activity"
-            android:label="@string/title_activity_main2"
-            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".activity.activity.MakeRequestAsDriver" />
         <activity android:name=".activity.activity.MakeRequestAsPassenger" />
         <activity android:name=".activity.activity.ViewRequestAllAcceptedActivity" />
         <activity android:name=".activity.activity.MapsActivity" />
         <activity android:name=".activity.activity.NextRideActivity" />
-        <activity android:name=".activity.activity.StartJourneyActivity" />
         <activity android:name=".activity.activity.RideEnd" />
-        <activity android:name=".activity.activity.BroadcastTest" />
-
-        <service android:name=".activity.activity.BroadcastService" />
-
         <activity android:name=".activity.activity.PassengerMapsActivity" />
-        <activity android:name=".activity.activity.BeginActivity">
-        </activity>
-        <activity
-            android:name=".activity.activity.NavigationActivity2"
-            android:label="@string/title_activity_navigation2"
-            android:theme="@style/AppTheme.NoActionBar">
-        </activity>
+        <activity android:name=".activity.activity.BeginActivity"></activity>
+        <service android:name=".activity.activity.BroadcastService"/>
+
     </application>
 
 </manifest>

@@ -23,7 +23,8 @@ import java.util.Map;
 /**
  * Created by aakansha on 7/21/2017.
  */
-
+//service for fetching current location of driver from database and to re-draw it on the passenger's map, after every 10 seconds
+//used in PassengerMapsActivity
 public class BroadcastService extends Service {
 
     private static final String TAG = "BroadcastService";

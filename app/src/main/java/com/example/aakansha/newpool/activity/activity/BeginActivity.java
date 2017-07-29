@@ -24,6 +24,8 @@ import org.json.JSONObject;
 
 import java.util.HashMap;
 
+//for declaring access type- as driver or as passenger
+
 public class BeginActivity extends AppCompatActivity {
 
     public RadioGroup radioGroup;

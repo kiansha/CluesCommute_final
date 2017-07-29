@@ -16,6 +16,7 @@ import java.util.List;
  * Created by aakansha on 7/11/2017.
  */
 
+//parser to get route between different lat-longs
 public class DataParser {
 
     /** Receives a JSONObject and returns a list of lists containing latitude and longitude */
